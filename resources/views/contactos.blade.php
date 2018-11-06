@@ -12,7 +12,7 @@
     {!! csrf_field() !!}
 
 <p><label for="nombre">
-    Nombre
+    Nombre 
     <input type="text" name="nombre" value="{{ old('nombre')}}">
     {!! $errors->first('nombre', '<span class=error>:message</span>')!!}
 </label></p>
